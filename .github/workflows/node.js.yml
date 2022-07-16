@@ -24,12 +24,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
-      env:
-        NOTION_KEY: ${{ secrets.NOTION_KEY }}
-        NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        NOTION_KEY: ${{ secrets.NOTION_KEY }}
+        NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
     - run: npm ci
     - run: npm run start --if-present
