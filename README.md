@@ -3,6 +3,7 @@
 # Daily Bing to Notion
 
 [![GitHub license](https://img.shields.io/github/license/Mikaleb/README-Model)](https://github.com/Mikaleb/Bing-Daily-Notion-cover/blob/main/LICENSE.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![GitHub issues](https://img.shields.io/github/issues/Mikaleb/Bing-Daily-Notion-cover)](https://github.com/Mikaleb/Bing-Daily-Notion-cover/issues)
 <a href='https://github.com/Mikaleb/Bing-Daily-Notion-cover'><img alt='Get it on GitHub' src='https://img.shields.io/badge/Github-Source-333?logo=github'/></a>
 
 This Notion integration syncs the daily Bing image of the day for a specific repo to a Notion Page. 
