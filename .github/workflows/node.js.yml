@@ -28,6 +28,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+      env: 
         NOTION_KEY: ${{ secrets.NOTION_KEY }}
         NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
     - run: npm ci
