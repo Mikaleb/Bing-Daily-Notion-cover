@@ -3,6 +3,10 @@
 
 name: Node.js CI
 
+env:
+  NOTION_KEY: ${{ secrets.NOTION_KEY }}
+  NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
+
 on:
   schedule:
     - cron: '30 7 * * *' # At 07:30 everyday
