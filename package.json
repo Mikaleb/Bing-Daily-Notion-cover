@@ -1,0 +1,20 @@
+{
+  "name": "bing-daily-notion-cover",
+  "version": "1.0.0",
+  "description": "Sync Bing daily picture to Notion cover",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Michaël Lebeau",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.0.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
