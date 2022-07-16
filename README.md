@@ -42,13 +42,15 @@ yarn start
 
 Please see [here](https://github.com/Mikaleb/Bing-Daily-Notion-cover/wiki/FAQ) for a list of frequently asked questions.
 
+##  Licensing
+
+See the [LICENSE](https://github.com/Mikaleb/Bing-Daily-Notion-cover/blob/main/LICENSE.md) file for licensing information as it pertains to
+files in this repository.
+
 ## Contribution
 
 README-Model is an open-source project and we are very happy to accept community contributions. Please refer to Contributing to [README-Model page](https://github.com/Mikaleb/Bing-Daily-Notion-cover/blob/main/CONTRIBUTING.md) for more details.
 
 If you run into a bug or miss a feature, please [open an issue](https://github.com/Mikaleb/Bing-Daily-Notion-cover/issues) in this repository.
 
-##  Licensing
 
-See the [LICENSE](https://github.com/Mikaleb/Bing-Daily-Notion-cover/blob/main/LICENSE.md) file for licensing information as it pertains to
-files in this repository.
