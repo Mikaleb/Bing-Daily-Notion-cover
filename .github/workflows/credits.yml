@@ -32,11 +32,6 @@ jobs:
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           file: 'README.md'
-      - name: Generate Sponsors in Credits 💖
-        uses: JamesIves/github-sponsors-readme-action@1.0.5
-        with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
-          file: 'docs/credits.md'
   # Job #3 - Update the Credits page
   insert-credits:
     runs-on: ubuntu-latest
