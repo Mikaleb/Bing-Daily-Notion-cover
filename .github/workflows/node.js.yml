@@ -33,5 +33,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npm run build --if-present
-    - run: npm run start
+    - run: echo ${{ secrets.NOTION_KEY }}
+    - run: NOTION_KEY=${{ secrets.NOTION_KEY }} NOTION_PAGE_ID=${{ secrets.NOTION_PAGE_ID }} npm run start --if-present
