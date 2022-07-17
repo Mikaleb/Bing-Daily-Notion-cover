@@ -27,11 +27,11 @@ function updateNotionImageDaily(bingImage) {
                 "type": "external",
               },
     })
-    .then(() => {
-        console.log("\n✅ Notion database is synced with Bing.")
-    })
     .catch((error) => {
         console.log(error)
+    })
+    .then(() => {
+        console.log("\n✅ Notion database is synced with Bing.")
     })
 }
 
