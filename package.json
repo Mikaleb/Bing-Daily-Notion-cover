@@ -8,17 +8,20 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "release": "release-it"
   },
   "author": "Michaël Lebeau",
   "license": "MIT",
   "dependencies": {
     "@notionhq/client": "^2.0.0",
+    "auto-changelog": "^2.4.0",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "release-it": "^15.1.2"
   },
   "config": {
     "commitizen": {

@@ -1,0 +1,16 @@
+{
+  "git": {
+    "commitMessage": "chore(release): v${version}"
+  },
+  "npm": {
+    "publish": false
+  },
+  "github": {
+    "release": true,
+    "autoGenerate": true
+  },
+  "hooks": {
+    "after:git:release": "npx auto-changelog --commit-limit false  --breaking-pattern 'OB' --issue-pattern 'BUG-'",
+    "after:bump": "npx auto-changelog --commit-limit false  --breaking-pattern 'OB' --issue-pattern 'BUG-'"
+  }
+}
