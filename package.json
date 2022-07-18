@@ -1,6 +1,6 @@
 {
   "name": "bing-daily-notion-cover",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Sync Bing daily picture to Notion cover",
   "main": "index.js",
   "engines": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "release": "dotenv release-it -VV"
+    "release": "dotenv release-it -- && git add . && git commit -m 'chore(changelog): log' && git push"
   },
   "author": "Michaël Lebeau",
   "license": "MIT",
