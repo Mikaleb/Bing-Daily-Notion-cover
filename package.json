@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "release": "dotenv release-it -- && git add . && git commit -m 'chore(changelog): log' && git push"
+    "release": "dotenv -p GITHUB_TOKEN release-it -- && git add . && git commit -m 'chore(changelog): log' && git push"
   },
   "author": "Michaël Lebeau",
   "license": "MIT",
