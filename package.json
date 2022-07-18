@@ -1,6 +1,6 @@
 {
   "name": "bing-daily-notion-cover",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Sync Bing daily picture to Notion cover",
   "main": "index.js",
   "engines": {
