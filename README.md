@@ -8,7 +8,7 @@
 
 This Notion integration syncs the daily Bing image of the day for a specific repo to a Notion Page. 
 
-## Running Locally
+## Running the project locally 
 
 ### 1. Setup your local project
 
@@ -17,6 +17,12 @@ yarn
 ```
 
 ### 2. Set your environment variables in a `.env` file
+
+You can create your own integration to get env variables here : https://www.notion.so/my-integrations 
+
+![www notion so_my-integrations_internal_e765d4358f234bdba6b459b03085def8](https://user-images.githubusercontent.com/71285085/185397422-e8d5c133-40f1-4c4f-aa6d-3c5a8e41d978.png)
+
+
 ```zsh
 NOTION_KEY=<your-notion-api-key>
 NOTION_PAGE_ID=<notion-page-id>
