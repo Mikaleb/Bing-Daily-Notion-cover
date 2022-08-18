@@ -20,7 +20,7 @@ yarn
 
 You can create your own integration to get env variables here : https://www.notion.so/my-integrations 
 
-![www notion so_my-integrations_internal_e765d4358f234bdba6b459b03085def8](https://user-images.githubusercontent.com/71285085/185397422-e8d5c133-40f1-4c4f-aa6d-3c5a8e41d978.png)
+<img src="https://user-images.githubusercontent.com/71285085/185397422-e8d5c133-40f1-4c4f-aa6d-3c5a8e41d978.png" height="400" />
 
 
 ```zsh
