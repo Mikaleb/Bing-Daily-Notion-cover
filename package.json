@@ -12,7 +12,7 @@
     "release": "dotenv release-it -- && git add . && git commit -m 'chore(changelog): log' && git push"
   },
   "author": "Michaël Lebeau",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@notionhq/client": "^2.0.0",
     "auto-changelog": "^2.4.0",
