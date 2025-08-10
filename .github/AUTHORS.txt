@@ -1,4 +1,4 @@
 Mikaleb <71285085+Mikaleb@users.noreply.github.com> - 10 commits
 Mikaleb <mikaleb@live.fr> - 35 commits
-snyk-bot <snyk-bot@snyk.io> - 35 commits
-github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> - 164 commits
+snyk-bot <snyk-bot@snyk.io> - 36 commits
+github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> - 165 commits
